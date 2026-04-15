@@ -1,0 +1,41 @@
+#Collection = single "variable" used to store multiple values
+#   List    = [] ordered and changeable. Duplicates OK
+#   Set     = {} unordered and immutable, but Add/Remove OK. NO duplicates
+#   Tuple   = () ordered and unchangeable. Duplicates OK. Faster
+
+
+fruits = ["apple","orange","banana","coconut"]
+
+print (fruits)
+ 
+
+# print(fruits[::-1])
+
+for fruit in fruits:
+    print (fruit)
+
+
+# print(len(fruits))
+
+# print("apple" in fruits)
+
+
+# fruits[0] = "pineapple"
+
+# fruits.append("pineapple")
+
+# fruits.remove("apple")
+
+# fruits.insert(0,"watermelon")
+
+# fruits.sort()
+
+# fruits.reverse()
+
+# fruits.clear()]
+
+# print(fruits.index("apple"))
+
+# print(fruits.count("banana"))
+
+print (fruits)
